@@ -1,0 +1,91 @@
+# Ignore build directories
+bin/
+obj/
+out/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore configuration files containing secrets or environment-specific settings
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Ignore logs
+*.log
+logs/
+*.tlog
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary and working files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.out
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+
+# Ignore .NET Core-related files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.deps.json
+*.runtimeconfig.json
+
+# Ignore Rider files (JetBrains IDE)
+.idea/
+*.sln.iml
+
+# Ignore Resharper files
+*.DotSettings.user
+
+# Ignore publish output
+publish/
+wwwroot/
+
+# Ignore database files
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Ignore Test Results
+TestResults/
+*.trx
+*.coverage
+.coverage*
+
+# Ignore generated files
+Generated_Code/
+*.g.cs
+*.g.i.cs
+
+# Ignore Docker-related files
+docker-compose.override.yml
+.env
+
+# Ignore Coverage tool output
+coverage/
+*.lcov
+
+# Ignore global tool configurations
+*.vsconfig
+
+# Ignore tools-related output
+tools/
